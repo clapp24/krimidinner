@@ -21,17 +21,17 @@ if st.button("Eingabe überprüfen"):
         elif eingabe == loesungen[1]:
             st.write(
                 """Franz-Hubertus hat Marion zu ihrem Geburtstag auch etwas geschenkt.
-                Wie könnte es anders sein: einen wunderschönen Gartenzwerg.""")
+                Wie könnte es anders sein: einen wunderschönen Gartenzwerg.
+                Leider ist der aber nicht in Marions WhatsApp-Status gelandet,
+                sondern nur diese doofe Holzkuh...""")
         elif eingabe == loesungen[2]:
             st.write(
                 """Ulrike ist eine Freundin von Marion aus Kindheitstagen.
                 Sie ist sehr enttäuscht, dass sie nicht zu Marions 60. Geburtstag eingeladen
                 wurde. So sehr, dass sie deshalb die Holzkuh zerstörte?""")
         elif eingabe == loesungen[3]:
-            pass
-            # WhatsApp-Bild: Ulrike auf Mallorca
-            # We
-            #st.write(
-            #    """Ulrike macht seit einer Woche Urlaub auf Mallorca""")
+            st.image("Mallorca-Status.png")
+        elif eingabe == loesungen[4]:
+            st.image("Wetterbericht.png")
     else:
         st.error("Schade, das ist nicht richtig.", icon="🙁")
