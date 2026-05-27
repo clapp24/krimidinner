@@ -53,6 +53,11 @@ if st.button("Eingabe überprüfen"):
                 Wie könnte es anders sein: einen wunderschönen Gartenzwerg.
                 Leider ist der aber nicht in Marions WhatsApp-Status gelandet,
                 sondern nur diese doofe Holzkuh...""")
+            st.write("#### Zusatzhinweis für dich:")
+            st.write(
+                """Wenn später in Runde 3 per Handzeichen danach gefragt wird, wer davon wusste,
+                dass Marion einen Gartenzwerg bekommen hat (und nicht glücklich darüber war),
+                zeige bitte auf. ☝️""")
         elif eingabe == loesungen[10]: # Lockangebot (Pferde sortieren)
             st.write(
                 """Marion hat sich bei Bianca mehrfach für das Missgeschick entschuldigt und die Vase ersetzt.
